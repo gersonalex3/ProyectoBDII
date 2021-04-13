@@ -10,7 +10,13 @@ Namespace Controllers
 
         ' GET: api/User
         Public Function GetValues() As IEnumerable(Of String)
-            Return New String() {"value1", "value2"}
+            getConexion()
+
+            Dim da As New Oracle.ManagedDataAccess.Client.OracleDataAdapter("select * from REGION", Con)
+            Dim ds As New DataSet
+            da.Fill(ds)
+
+            Return New String() {ds.Tables(0).Rows.Count}
         End Function
 
         ' GET: api/User/5
