@@ -18,7 +18,7 @@
 				<a href="Inicio.aspx" class="activo">Inicio</a>
 				<a href="#">Programas</a>
 				<a href="#">Películas</a>
-				<a href="#">Más Recientes</a>
+				<a href="Gratuito.aspx">Gratuito</a>
 				<a href="Cuenta.aspx">Mi Cuenta</a>
 			</nav>
 		</div>

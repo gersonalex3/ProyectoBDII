@@ -266,3 +266,4 @@ C:\Users\ecazjoe\Source\Repos\ProyectoBDIIv2\BackendAppStreaming\BackendAppStrea
 C:\Users\ecazjoe\Source\Repos\ProyectoBDIIv2\BackendAppStreaming\BackendAppStreaming\obj\Debug\BackendAppStreaming.dll
 C:\Users\ecazjoe\Source\Repos\ProyectoBDIIv2\BackendAppStreaming\BackendAppStreaming\obj\Debug\BackendAppStreaming.xml
 C:\Users\ecazjoe\Source\Repos\ProyectoBDIIv2\BackendAppStreaming\BackendAppStreaming\obj\Debug\BackendAppStreaming.pdb
+C:\Users\alx_g\Desktop\ProyectoBDII\BackendAppStreaming\BackendAppStreaming\bin\Oracle.ManagedDataAccess.dll

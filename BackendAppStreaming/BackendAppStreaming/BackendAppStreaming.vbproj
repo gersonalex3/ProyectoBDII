@@ -220,6 +220,13 @@
       <DependentUpon>Cuenta.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Vistas\Gratuito.aspx.designer.vb">
+      <DependentUpon>Gratuito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Gratuito.aspx.vb">
+      <DependentUpon>Gratuito.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Vistas\Inicio.aspx.designer.vb">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
@@ -304,6 +311,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Vistas\Cuenta.aspx" />
+    <Content Include="Vistas\Gratuito.aspx" />
     <Content Include="Vistas\Inicio.aspx" />
     <Content Include="Vistas\Home.Master" />
   </ItemGroup>
