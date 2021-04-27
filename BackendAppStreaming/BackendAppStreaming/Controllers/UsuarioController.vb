@@ -5,7 +5,7 @@ Namespace Controllers
         Inherits Controller
 
         ' GET: Usuario
-        Function Index() As ActionResult
+        Function CategoriaPeliculas() As ActionResult
             Return View()
         End Function
 

@@ -213,34 +213,6 @@
     </Compile>
     <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Controllers\ValuesController.vb" />
-    <Compile Include="Vistas\Cuenta.aspx.designer.vb">
-      <DependentUpon>Cuenta.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Vistas\Cuenta.aspx.vb">
-      <DependentUpon>Cuenta.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Vistas\Gratuito.aspx.designer.vb">
-      <DependentUpon>Gratuito.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Vistas\Gratuito.aspx.vb">
-      <DependentUpon>Gratuito.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Vistas\Inicio.aspx.designer.vb">
-      <DependentUpon>Inicio.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Vistas\Inicio.aspx.vb">
-      <DependentUpon>Inicio.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Vistas\Home.Master.designer.vb">
-      <DependentUpon>Home.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Vistas\Home.Master.vb">
-      <DependentUpon>Home.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -256,7 +228,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Estilos.css" />
+    <Content Include="Content\estilos.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -296,24 +268,23 @@
     </None>
     <None Include="packages.config" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="Imagenes\1.png" />
-    <Content Include="Imagenes\2.png" />
-    <Content Include="Imagenes\3.png" />
-    <Content Include="Imagenes\4.png" />
-    <Content Include="Imagenes\5.png" />
-    <Content Include="Imagenes\6.png" />
-    <Content Include="Imagenes\7.png" />
+    <Content Include="Imagenes\Prueba\1.png" />
+    <Content Include="Imagenes\Prueba\2.png" />
+    <Content Include="Imagenes\Prueba\3.png" />
+    <Content Include="Imagenes\Prueba\4.png" />
+    <Content Include="Imagenes\Prueba\5.png" />
+    <Content Include="Imagenes\Prueba\6.png" />
+    <Content Include="Imagenes\Prueba\7.png" />
     <Content Include="Imagenes\backdrop.jpg" />
+    <Content Include="js\main.js" />
+    <Content Include="Content\style.css" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-    <Content Include="Vistas\Cuenta.aspx" />
-    <Content Include="Vistas\Gratuito.aspx" />
-    <Content Include="Vistas\Inicio.aspx" />
-    <Content Include="Vistas\Home.Master" />
+    <Content Include="Views\Usuario\CategoriaPeliculas.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -338,7 +309,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Usuario\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

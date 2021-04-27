@@ -1,41 +1,28 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <title>@ViewBag.Title | CloudStream</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/Content/Estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <title>CStream</title>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", New With { .area = "" }, New With {Key .[class] = "navbar-brand"})
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home", New With { .area = "" }, Nothing)</li>
-                    <li>@Html.ActionLink("API", "Index", "Help", New With { .area = "" }, Nothing)</li>
-                </ul>
-            </div>
+    <header>
+        <div class="contenedor">
+            <h2 class="logotipo">Cloud Stream</h2>
+            <nav>
+                <a @Html.ActionLink("Inicio", "Index", "Home")></a>
+                <a href="#">Programas</a>
+                <a href="#">Películas</a>
+                <a href="#">Gratuito</a>
+                <a href="#">Mi Cuenta</a>
+            </nav>
         </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
-    </div>
+    </header>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required:=False)
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+        @RenderBody()
 </body>
 </html>
