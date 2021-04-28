@@ -12,6 +12,12 @@ Module Usuario
         Conexion.Open()
     End Sub
 
+    Public Sub ObtenerLink(id As Int32)
 
+        AbrirConexion()
+
+
+
+    End Sub
 
 End Module

@@ -9,6 +9,22 @@ Namespace Controllers
             Return View()
         End Function
 
+        ' Obtener Reproduccion
+
+        Function Reproduccion(ByVal id As Integer?) As ActionResult
+            Dim anInteger As Integer
+
+            anInteger = CType(id, Integer)
+
+
+
+            Return View()
+
+
+
+
+        End Function
+
         ' GET: Usuario/Details/5
         Function Details(ByVal id As Integer) As ActionResult
             Return View()

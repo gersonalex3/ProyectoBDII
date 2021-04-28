@@ -1,4 +1,5 @@
 ﻿@Code
+
     ViewBag.Title = "Peliculas Premium"
 
 End Code
@@ -22,12 +23,12 @@ End Code
                 <div class="col-lg-4 col-md-6">
                     <div class="row">
                         <div class="col-6">
-                            <a href="#">
+                            <a href="@Url.Action("Reproduccion", "Usuario", New With {.id = 1})">
                                 <img src="~/Imagenes/Prueba/1.png">
                             </a>
-                        </div>
+                            </div>
                         <div class="col-6">
-                            <a href="#">
+                            <a href="@Url.Action("Reproduccion", "Usuario", New With {.id = 2})">
                                 <img src="~/Imagenes/Prueba/2.png">
                             </a>
                         </div>
@@ -36,12 +37,12 @@ End Code
                 <div class="col-lg-4 col-md-6">
                     <div class="row">
                         <div class="col-6">
-                            <a href="#">
+                            <a href="@Url.Action("Reproduccion", "Usuario", New With {.id = 3})">
                                 <img src="~/Imagenes/Prueba/3.png">
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="#">
+                            <a href="@Url.Action("Reproduccion", "Usuario", New With {.id = 4})">
                                 <img src="~/Imagenes/Prueba/4.png">
                             </a>
                         </div>
@@ -50,12 +51,12 @@ End Code
                 <div class="col-lg-4 col-md-6">
                     <div class="row">
                         <div class="col-6">
-                            <a href="#">
+                            <a href="@Url.Action("Reproduccion", "Usuario", New With {.id = 5})">
                                 <img src="~/Imagenes/Prueba/5.png">
                             </a>
                         </div>
                         <div class="col-6">
-                            <a href="#">
+                            <a href="@Url.Action("Reproduccion", "Usuario", New With {.id = 6})">
                                 <img src="~/Imagenes/Prueba/6.png">
                             </a>
                         </div>
